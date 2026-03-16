@@ -329,5 +329,41 @@ a.header-menu-item.active {
     margin-top: 0.5rem;
     font-weight: 500;
 } */
-
 /*----- Testimonials end ----*/
+
+
+/*----- Arrow-up start ----*/
+.arrow-up{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    color: var(--color-white);
+    font-size: 3rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100%;
+    background-color: var(--color-black);
+    text-align: center;
+    box-shadow: 5px 5px 0px 0px var(--color-accent);
+}
+/*----- Arrow-up end ----*/
+
+/*----- Footer start ----*/
+#contact{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.contact-link{
+    color: var(--color-white);
+}
+.contact-link:hover{
+    color: var(--color-accent);
+}
+/*----- Footer end ----*/
